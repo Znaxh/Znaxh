@@ -1,2 +1,2 @@
 # About Me
-I don't know what am I doing Lmao  
+I don't know what I'm doing
