@@ -1,7 +1,7 @@
 <!-- Matrix rain header -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:000000,100:00ff41&text=ZNAXH&fontColor=00ff41&fontSize=90&fontAlignY=55&desc=Backend%20Engineer%20%7C%20System%20Architect%20%7C%20OSS%20Contributor&descAlignY=75&descSize=16&stroke=00ff41&strokeWidth=2&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:000000,100:00ff41&text=ANURAG&fontColor=00ff41&fontSize=90&fontAlignY=55&desc=Backend%20Engineer%20%7C%20System%20Architect%20%7C%20OSS%20Contributor&descAlignY=75&descSize=16&stroke=00ff41&strokeWidth=2&animation=fadeIn" width="100%"/>
 
 </div>
 
