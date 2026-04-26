@@ -1,174 +1,196 @@
-<div align="center">
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="830" height="460" viewBox="0 0 830 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+    * { font-family: 'Share Tech Mono', 'Courier New', monospace; }
+    .bg       { fill: #0c110c; }
+    .border   { fill: none; stroke: #2a5c2a; stroke-width: 1; }
+    .border2  { fill: none; stroke: #1a3a1a; stroke-width: 1; stroke-dasharray: 4 3; }
+    .dim      { fill: #2a5c2a; }
+    .mid      { fill: #4a8c4a; }
+    .bright   { fill: #6db86b; }
+    .label    { fill: #2a5c2a; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
+    .key      { fill: #4a8c4a; font-size: 13px; }
+    .val      { fill: #6db86b; font-size: 13px; }
+    .name     { fill: #6db86b; font-size: 32px; letter-spacing: 0.12em; }
+    .role     { fill: #4a8c4a; font-size: 13px; letter-spacing: 0.06em; }
+    .sep      { fill: none; stroke: #1a3a1a; stroke-width: 1; }
+    .stat-n   { fill: #6db86b; font-size: 22px; }
+    .stat-l   { fill: #2a5c2a; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; }
+    .dot-l    { fill: #2a5c2a; font-size: 13px; }
+    .cursor   { fill: #6db86b; }
+  </style>
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   ░█████╗░███╗░░██╗██╗░░░██╗██████╗░░█████╗░░██████╗░      │
-│   ██╔══██╗████╗░██║██║░░░██║██╔══██╗██╔══██╗██╔════╝░      │
-│   ███████║██╔██╗██║██║░░░██║██████╔╝███████║██║░░██╗░      │
-│   ██╔══██║██║╚████║██║░░░██║██╔══██╗██╔══██║██║░░╚██╗      │
-│   ██║░░██║██║░╚███║╚██████╔╝██║░░██║██║░░██║╚██████╔╝      │
-│   ╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝░╚═════╝░      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+  <!-- Background -->
+  <rect width="830" height="460" class="bg"/>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=3500&pause=1200&color=6DB86B&center=true&vCenter=true&width=500&lines=backend+engineer+%2F+system+architect;python+%7C+node.js+%7C+postgresql+%7C+redis;building+systems+that+scale.;currently%3A+shipping.)
+  <!-- Outer border -->
+  <rect x="16" y="16" width="798" height="428" rx="2" class="border"/>
 
-</div>
+  <!-- Top bar -->
+  <rect x="16" y="16" width="798" height="36" rx="2" fill="#0e140e"/>
+  <line x1="16" y1="52" x2="814" y2="52" class="sep"/>
 
----
+  <!-- Window controls -->
+  <circle cx="38" cy="34" r="5" fill="#1a3a1a"/>
+  <circle cx="56" cy="34" r="5" fill="#1a3a1a"/>
+  <circle cx="74" cy="34" r="5" fill="#2a5c2a"/>
 
-<div align="center">
+  <!-- Title bar text -->
+  <text x="415" y="38" text-anchor="middle" class="label">znaxh — profile.sh</text>
 
-![](https://img.shields.io/badge/─────────────────────────────────────────────────────-0a0f0a?style=flat-square)
+  <!-- Left panel divider -->
+  <line x1="290" y1="52" x2="290" y2="444" class="sep"/>
 
-</div>
+  <!-- ─── LEFT PANEL ─── -->
 
-```
-znaxh@arch ~ $ cat /etc/profile
-```
+  <!-- Prompt line -->
+  <text x="36" y="84" class="label">session</text>
+  <text x="36" y="104" class="key">~/znaxh</text>
+  <text x="112" y="104" class="dim"> ❯ </text>
+  <text x="136" y="104" class="bright">whoami</text>
 
-```
-  role        →  Backend Engineer · System Architect
-  location    →  India
-  stack       →  Python · Node.js · PostgreSQL · Redis · Docker
-  os          →  Arch Linux
-  editor      →  Neovim
-  interests   →  Distributed systems · API design · OSS · Performance
-  status      →  [ BUILDING ]
-```
+  <!-- Separator -->
+  <line x1="36" y1="118" x2="268" y2="118" class="border2"/>
 
----
+  <!-- Name block -->
+  <text x="36" y="152" class="name">ANURAG</text>
+  <text x="36" y="172" class="role">backend engineer  /  system architect</text>
 
-```
-znaxh@arch ~ $ ls -1 skills/
-```
+  <!-- Separator -->
+  <line x1="36" y1="186" x2="268" y2="186" class="border2"/>
 
-```
-languages/
-  ├── python
-  ├── javascript
-  ├── typescript
-  ├── bash
-  └── sql
+  <!-- Info table -->
+  <text x="36"  y="210" class="key">os        </text><text x="138" y="210" class="val" id="os_data">arch linux</text>
+  <text x="36"  y="230" class="key">editor    </text><text x="138" y="230" class="val" id="editor_data">neovim</text>
+  <text x="36"  y="250" class="key">stack     </text><text x="138" y="250" class="val" id="stack_data">py · ts · sql</text>
+  <text x="36"  y="270" class="key">location  </text><text x="138" y="270" class="val" id="loc_data">india</text>
+  <text x="36"  y="290" class="key">status    </text><text x="138" y="290" class="val" id="status_data">[ building ]</text>
 
-backend/
-  ├── fastapi
-  ├── node.js
-  ├── express
-  └── django
+  <!-- Separator -->
+  <line x1="36" y1="304" x2="268" y2="304" class="border2"/>
 
-infrastructure/
-  ├── postgresql
-  ├── redis
-  ├── mongodb
-  ├── docker
-  ├── nginx
-  └── linux
-```
+  <!-- Social links -->
+  <text x="36" y="326" class="label">links</text>
+  <text x="36" y="346" class="key">gh  </text><text x="70" y="346" class="val">github.com/znaxh</text>
+  <text x="36" y="366" class="key">in  </text><text x="70" y="366" class="val" id="linkedin_data">linkedin.com/in/—</text>
+  <text x="36" y="386" class="key">web </text><text x="70" y="386" class="val" id="web_data">znaxh.dev</text>
+  <text x="36" y="406" class="key">mail</text><text x="70" y="406" class="val" id="mail_data">—@gmail.com</text>
 
----
+  <!-- Blinking cursor -->
+  <rect x="36" y="424" width="8" height="13" class="cursor" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
 
-```
-znaxh@arch ~ $ ls -la projects/
-```
+  <!-- ─── RIGHT PANEL ─── -->
 
-> Replace the repo names below with your actual repositories.
+  <!-- Stats header -->
+  <text x="314" y="80" class="label">git log —stats</text>
 
-| repo | description | lang |
-|------|-------------|------|
-| [→ project-one](https://github.com/Znaxh/REPO_NAME_1) | short one-liner about what it does | `Python` |
-| [→ project-two](https://github.com/Znaxh/REPO_NAME_2) | short one-liner about what it does | `Node.js` |
-| [→ project-three](https://github.com/Znaxh/REPO_NAME_3) | short one-liner about what it does | `Go` |
+  <!-- Stat boxes row 1 -->
+  <!-- Commits -->
+  <rect x="314" y="92" width="148" height="72" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="328" y="115" class="stat-l">commits</text>
+  <text x="328" y="146" class="stat-n" id="commit_data">—,———</text>
+  <text x="328" y="158" class="dot-l" id="commit_data_dots"></text>
 
----
+  <!-- Stars -->
+  <rect x="474" y="92" width="148" height="72" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="488" y="115" class="stat-l">stars earned</text>
+  <text x="488" y="146" class="stat-n" id="star_data">——</text>
 
-```
-znaxh@arch ~ $ cat stats.json
-```
+  <!-- Repos -->
+  <rect x="634" y="92" width="164" height="72" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="648" y="115" class="stat-l">repositories</text>
+  <text x="648" y="146" class="stat-n" id="repo_data">——</text>
 
-<div align="center">
+  <!-- Separator -->
+  <line x1="314" y1="176" x2="796" y2="176" class="border2"/>
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=Znaxh&show_icons=true&theme=dark&bg_color=0a0f0a&border_color=3a7d44&title_color=6db86b&icon_color=6db86b&text_color=6db86b&hide_border=false&count_private=true&include_all_commits=true&hide_title=true" />
+  <!-- Lines of code -->
+  <text x="314" y="200" class="label">loc  ·  lines of code written</text>
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Znaxh&layout=compact&bg_color=0a0f0a&border_color=3a7d44&title_color=6db86b&text_color=6db86b&hide_border=false&langs_count=6&hide_title=true" />
+  <text x="314" y="228" class="key">total   </text>
+  <text x="380" y="228" class="dot-l" id="loc_data_dots">...................</text>
+  <text x="700" y="228" class="val" text-anchor="end" id="total_loc">—,———,———</text>
 
-</div>
+  <text x="314" y="250" class="key">added   </text>
+  <text x="380" y="250" class="dot-l" id="loc_add_dots">...................</text>
+  <text x="700" y="250" class="val" text-anchor="end" id="loc_add">+—,———,———</text>
 
-<div align="center">
+  <text x="314" y="272" class="key">deleted </text>
+  <text x="380" y="272" class="dot-l" id="loc_del_dots">...................</text>
+  <text x="700" y="272" class="val" text-anchor="end" id="loc_del">-—,———,———</text>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Znaxh&background=0a0f0a&border=3a7d44&ring=6db86b&fire=6db86b&currStreakNum=6db86b&sideNums=3a7d44&currStreakLabel=6db86b&sideLabels=3a7d44&dates=2d5a27&stroke=0a0f0a" />
+  <!-- Separator -->
+  <line x1="314" y1="288" x2="796" y2="288" class="border2"/>
 
-</div>
+  <!-- Skills section -->
+  <text x="314" y="312" class="label">ls skills/  —la</text>
 
----
+  <!-- Skill tags -->
+  <!-- Row 1 -->
+  <rect x="314" y="322" width="64"  height="20" rx="1" fill="#0e140e" stroke="#2a5c2a" stroke-width="1"/>
+  <text x="346" y="336" text-anchor="middle" class="mid" style="font-size:11px">python</text>
 
-```
-znaxh@arch ~ $ tail -f activity.log
-```
+  <rect x="386" y="322" width="80"  height="20" rx="1" fill="#0e140e" stroke="#2a5c2a" stroke-width="1"/>
+  <text x="426" y="336" text-anchor="middle" class="mid" style="font-size:11px">javascript</text>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Znaxh&bg_color=0a0f0a&color=6db86b&line=3a7d44&point=6db86b&area=true&area_color=1a3a1a&border_color=3a7d44&custom_title=commit+history&hide_border=false" width="100%"/>
+  <rect x="474" y="322" width="82"  height="20" rx="1" fill="#0e140e" stroke="#2a5c2a" stroke-width="1"/>
+  <text x="515" y="336" text-anchor="middle" class="mid" style="font-size:11px">typescript</text>
 
----
+  <rect x="564" y="322" width="44"  height="20" rx="1" fill="#0e140e" stroke="#2a5c2a" stroke-width="1"/>
+  <text x="586" y="336" text-anchor="middle" class="mid" style="font-size:11px">bash</text>
 
-```
-znaxh@arch ~ $ ping znaxh --socials
-```
+  <rect x="616" y="322" width="34"  height="20" rx="1" fill="#0e140e" stroke="#2a5c2a" stroke-width="1"/>
+  <text x="633" y="336" text-anchor="middle" class="mid" style="font-size:11px">sql</text>
 
-<div align="center">
+  <rect x="658" y="322" width="44"  height="20" rx="1" fill="#0e140e" stroke="#2a5c2a" stroke-width="1"/>
+  <text x="680" y="336" text-anchor="middle" class="mid" style="font-size:11px">go</text>
 
-[![github](https://img.shields.io/badge/github-0a0f0a?style=for-the-badge&logo=github&logoColor=6db86b)](https://github.com/Znaxh)
-[![linkedin](https://img.shields.io/badge/linkedin-0a0f0a?style=for-the-badge&logo=linkedin&logoColor=6db86b)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![portfolio](https://img.shields.io/badge/portfolio-0a0f0a?style=for-the-badge&logo=firefox&logoColor=6db86b)](https://YOUR_PORTFOLIO.dev)
-[![mail](https://img.shields.io/badge/mail-0a0f0a?style=for-the-badge&logo=gmail&logoColor=6db86b)](mailto:YOUR_EMAIL)
+  <!-- Row 2 -->
+  <rect x="314" y="350" width="62"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="345" y="364" text-anchor="middle" class="dim" style="font-size:11px">fastapi</text>
 
-</div>
+  <rect x="384" y="350" width="58"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="413" y="364" text-anchor="middle" class="dim" style="font-size:11px">node.js</text>
 
----
+  <rect x="450" y="350" width="56"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="478" y="364" text-anchor="middle" class="dim" style="font-size:11px">express</text>
 
-```
-znaxh@arch ~ $ █
-```
+  <rect x="514" y="350" width="54"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="541" y="364" text-anchor="middle" class="dim" style="font-size:11px">django</text>
 
-<div align="center">
-<sub>· · ·</sub>
-</div>
+  <rect x="576" y="350" width="74"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="613" y="364" text-anchor="middle" class="dim" style="font-size:11px">postgresql</text>
 
-<!--
-=============================================================
-  SETUP CHECKLIST
-=============================================================
+  <rect x="658" y="350" width="44"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="680" y="364" text-anchor="middle" class="dim" style="font-size:11px">redis</text>
 
-  [ ] Rename repo to match your GitHub username exactly
-  [ ] Make repo PUBLIC and add this as README.md
-  [ ] Replace REPO_NAME_1/2/3 with actual repo names
-  [ ] Add project descriptions in the table
-  [ ] Replace YOUR_LINKEDIN / YOUR_PORTFOLIO.dev / YOUR_EMAIL
-  [ ] Set up snake animation: .github/workflows/snake.yml
+  <!-- Row 3 -->
+  <rect x="314" y="378" width="58"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="343" y="392" text-anchor="middle" class="dim" style="font-size:11px">docker</text>
 
-  Snake workflow:
-  ─────────────
-  name: snake
-  on:
-    schedule: [{ cron: "0 0 * * *" }]
-    workflow_dispatch:
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk@v3
-          with:
-            github_user_name: ${{ github.repository_owner }}
-            outputs: |
-              dist/github-contribution-grid-snake.svg
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        - uses: crazy-max/ghaction-github-pages@v3.1.0
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  <rect x="380" y="378" width="52"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="406" y="392" text-anchor="middle" class="dim" style="font-size:11px">nginx</text>
 
-=============================================================
--->
+  <rect x="440" y="378" width="52"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="466" y="392" text-anchor="middle" class="dim" style="font-size:11px">linux</text>
+
+  <rect x="500" y="378" width="66"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="533" y="392" text-anchor="middle" class="dim" style="font-size:11px">mongodb</text>
+
+  <rect x="574" y="378" width="54"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="601" y="392" text-anchor="middle" class="dim" style="font-size:11px">github</text>
+
+  <rect x="636" y="378" width="46"  height="20" rx="1" fill="#0e140e" stroke="#1a3a1a" stroke-width="1"/>
+  <text x="659" y="392" text-anchor="middle" class="dim" style="font-size:11px">grpc</text>
+
+  <!-- Separator -->
+  <line x1="314" y1="408" x2="796" y2="408" class="border2"/>
+
+  <!-- Footer -->
+  <text x="314" y="430" class="label">contributors: znaxh  ·  updated daily via github actions</text>
+  <text x="796" y="430" text-anchor="end" class="label" id="contrib_data">—repos contributed</text>
+
+</svg>
