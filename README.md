@@ -1,2 +1,1 @@
-<img src="https://tenor.com/view/pixel-art-pixel-pixel-emoji-pixelated-window-gif-12605232714660707611" width="300" alt="Vyd3n Acidpunk">
-
+![My GIF](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJmdmNuZnhvZWJraTlmaXY5M2h0b2o4NGQ4OWlweXZmMGhxdjFuNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vPzbDN4rBxuvtpSpzF/giphy.gif)
