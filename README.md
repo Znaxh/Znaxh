@@ -1,1 +1,2 @@
-<div class="tenor-gif-embed" data-postid="12605232714660707611" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/pixel-art-pixel-pixel-emoji-pixelated-window-gif-12605232714660707611">Pixel Art Pixel Emoji Sticker</a>from <a href="https://tenor.com/search/pixel+art-stickers">Pixel Art Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<img src="https://tenor.com/view/pixel-art-pixel-pixel-emoji-pixelated-window-gif-12605232714660707611" width="300" alt="Vyd3n Acidpunk">
+
